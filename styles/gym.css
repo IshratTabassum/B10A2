@@ -10,3 +10,65 @@
   font-variation-settings:
     "slnt" 0;
 }
+
+/* Shared styles */
+
+.display-flex{display: flex;}
+
+.text-white{color: white;}
+
+.text-orange{color: rgba(230, 83, 60, 1);}
+
+.bg-black{
+background-color: black;
+background-size: 1440px 715px;}
+
+.bg-orange{
+background-color:rgba(230, 83, 60, 1) ;
+
+border-radius: 20px;
+padding: 5px 10px;}
+
+/* Nav related styles */
+
+.nav-item{
+list-style: none;
+margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+.navbar{
+justify-content: space-between;
+align-items: center;
+max-width: 1040px;
+margin: 0 auto;}
+
+.brand {
+    font-style: italic;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* banner related styles */
+
+.banner {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.banner-content {
+    width: 520px;
+    height: 282px;
+    text-align: left;
+}
+.banner-title {color: white;
+font-size: 4.8rem;}
+
+.banner-description {color: white;}
+.image-1 {
+    width: 349px;
+    height: 580px;
+    text-align: right;
+}
