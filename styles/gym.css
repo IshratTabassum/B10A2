@@ -57,11 +57,16 @@ margin: 0 auto;}
 .banner {
     max-width: 1040px;
     margin: 0 auto;
+    display: flex;
+    gap: 200px;
+    
 }
+
 .banner-content {
     width: 520px;
     height: 282px;
     text-align: left;
+    display: flexbox;
 }
 .banner-title {color: white;
 font-size: 4.8rem;}
@@ -70,5 +75,87 @@ font-size: 4.8rem;}
 .image-1 {
     width: 349px;
     height: 580px;
-    text-align: right;
+    
+}
+    .btn-orange {
+        background-color:  rgba(230, 83, 60, 1) ;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font font-weight: 600;
+        border-radius: 25px
+        
+    }
+    .btn-black{
+        background-color:  rgb(12, 12, 12) ;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font font-weight: 600;
+        border-radius: 25px
+
+    }
+    
+
+    .position-right{
+        position: absolute;
+        right: 0;
+     
+       
+    }
+    #t-1{
+        font-size: 1.5rem;
+       font-weight: 800 ;
+        color: white;
+        list-style: none;
+    }
+
+    #t-2 {
+        font-size: 1rem;
+        font-weight: 100;
+        color: rgba(255, 255, 255, 0.411);
+        list-style: none;
+    
+    }
+
+   #t-3{
+    font-size: 1.5rem;
+       font-weight: 800 ;
+        color: white;
+        list-style: none;}
+
+   #t-4{
+    font-size: 1rem;
+        font-weight: 100;
+        color: rgba(255, 255, 255, 0.411);
+        list-style: none;}
+
+
+#p-1{
+    background-color: rgba(48, 48, 48, 0.459);
+    color: white;
+    padding: 20px 23px;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 25px;
+    margin-left: 0px;
+   
+}
+
+
+#p-2{
+    background-color: rgba(48, 48, 48, 0.459);
+    color: white;
+    padding: 20px 23px;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 25px;
+    margin-right: 0px;
+   
+    
+}
+
+/* responsive media quary */
+@media screen and (max-width = 576px) {
+    .navbar, .banner {flex-direction: column;}
 }
